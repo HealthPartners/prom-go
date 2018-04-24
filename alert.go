@@ -13,13 +13,8 @@ type AlertGroup struct {
 		RunBook          string `json:"runbook"`
 	} `json:"commonAnnotations"`
 	Alerts []struct {
-		Status string `json:"status"`
-		Labels struct {
-			Team    string `json:"team"`
-			Group   string `json:"group"`
-			AppName string `json:"app"`
-			Cluster string `json:"openshift_cluster"`
-		} `json:"labels"`
+		Status      string            `json:"status"`
+		Labels      map[string]string `json:"labels"`
 		Annotations struct {
 			Description      string `json:"description"`
 			ShortDescription string `json:"summary"`
