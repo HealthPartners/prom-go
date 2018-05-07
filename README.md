@@ -1,5 +1,8 @@
 # Prom-Go
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/HealthPartnersOSS/snogo)](https://goreportcard.com/report/github.com/HealthPartnersOSS/snogo)
+[![MIT License](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+
 A go helper library that contains the alert struct for prometheus alerts
 
 ## Getting Started
